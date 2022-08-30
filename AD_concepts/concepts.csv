@@ -1,0 +1,196 @@
+﻿name,display_name,description,parent,concept_type,min,max,unit,deleted
+demographic,Demographics,,root,hierarchical,,,,0
+medhist,Medical History,,root,hierarchical,,,,0
+vitalsign,Vital Signs,,root,hierarchical,,,,0
+behavioralgds,Behavioral Assessment - Geriatric Depression Scale,,root,hierarchical,,,,0
+modifiedhis,Modified Hachinski,,root,hierarchical,,,,0
+neuropathology,Neuropathology,,root,hierarchical,,,,0
+nbscores,Neuropsychological Battery Scores,,root,hierarchical,,,,0
+npiq,Neuropsychiatric Inventory Questionnaire (NPI-Q),,root,hierarchical,,,,0
+fuctionscale,Functional Assessment Scale,,root,hierarchical,,,,0
+imaging,Imaging,,root,hierarchical,,,,0
+strokesum,Stroke Summary,,root,hierarchical,,,,0
+amyloidpet,Amyloid PET Scan Information,,root,hierarchical,,,,0
+totalcranial,Total Cranial Vault Segmentation,,root,hierarchical,,,,0
+clinicaldiagnosis,Clinician Diagnosis,,root,hierarchical,,,,0
+residence,Type of residence,,demographic,categorical,,,,0
+marital,Marital status,,demographic,categorical,,,,0
+education,Years of education,,demographic,numerical,,36,,0
+birthmonth,Month of birth,,demographic,numerical,1,12,,0
+birthyear,Year of birth,,demographic,numerical,1875,2007,,0
+languagepri,Primary language,,demographic,categorical,,,,0
+packssmoked,Average number of packs smoked per day,,medhist,categorical,,,,0
+neuroconother,Other neurological condition,,medhist,categorical,,,,0
+systolic,Seated Blood Pressure: Systolic,,vitalsign,numerical,70,230,mmHg,0
+diastolic,Seated Blood Pressure: Diastolic,,vitalsign,numerical,30,140,mmHg,0
+badhappen,Are you afraid that something bad is going to happen to you?,,behavioralgds,categorical,,,,0
+preferhome,"Do you prefer to stay at home, rather than going out and doing new things?",,behavioralgds,categorical,,,,0
+betteroff,Do you think that most people are better off than you are?,,behavioralgds,categorical,,,,0
+memory,Do you feel you have more problems with memory than most?,,behavioralgds,categorical,,,,0
+worthless,Do you feel pretty worthless the way you are now?,,behavioralgds,categorical,,,,0
+dropactivities,Have you dropped many of your activities and interests?,,behavioralgds,categorical,,,,0
+empty,Do you feel that your life is empty?,,behavioralgds,categorical,,,,0
+goodspirits,Are you in good spirits most of the time?,,behavioralgds,categorical,,,,0
+situationhopeless,Do you feel that your situation is hopeless?,,behavioralgds,categorical,,,,0
+feelhappy,Do you feel happy most of the time?,,behavioralgds,categorical,,,,0
+satisfied,Are you basically satisfied with your life?,,behavioralgds,categorical,,,,0
+energy,Do you feel full of energy?,,behavioralgds,categorical,,,,0
+bored,Do you often get bored?,,behavioralgds,categorical,,,,0
+helpless,Do you often feel helpless?,,behavioralgds,categorical,,,,0
+alive,Do you think it is wonderful to be alive now?,,behavioralgds,categorical,,,,0
+totalgds,Total GDS Score,,behavioralgds,numerical,,15,,0
+strokehistory,History of Stroke,,modifiedhis,categorical,,,,0
+emoincontinence,Emotional Incontinence,,modifiedhis,categorical,,,,0
+somcomplaints,Somatic Complaints,,modifiedhis,categorical,,,,0
+focalsymptoms,Focal Neurologic Symptoms,,modifiedhis,categorical,,,,0
+focalsigns,Focal Neurologic Signs,,modifiedhis,categorical,,,,0
+hypertensionhis,History of Hypertension,,modifiedhis,categorical,,,,0
+tauopathyoth,"Tauopathy, other (e.g., tangle-only dementia and argyrophilic grain dementia)",,neuropathology,categorical,,,,0
+temporallobe,Medial temporal lobe sclerosis present (including hippocampal sclerosis),,neuropathology,categorical,,,,0
+ftdubi,FTD with ubiquitin-positive (tau-negative) inclusions,,neuropathology,categorical,,,,0
+ischemvas,"Ischemic, hemorrhagic, or vascular pathology present",,neuropathology,categorical,,,,0
+genchrom,Genetic or chromosomal abnormalities,,neuropathology,categorical,,,,0
+leuko,Subcortical arteriosclerotic leukoencephalopathy present,,neuropathology,categorical,,,,0
+lacunes,One or more lacunes (small artery infarcts and/or hemorrhages) present,,neuropathology,categorical,,,,0
+othpathologic,Other pathologic changes related to ischemic or vascular disease not previously specified,,neuropathology,categorical,,,,0
+niareagan ,NIA/Reagan Institute criteria,,neuropathology,categorical,,,,0
+prnp,PRNP codon 129,,neuropathology,categorical,,,,0
+adinsuffpri,AD pathology present but insufficient for AD diagnosis - primary,,neuropathology,categorical,,,,0
+paraffin,Paraffin-embedded blocks of brain regions,,neuropathology,categorical,,,,0
+dlbpathology,DLB clinical syndrome due to DLB pathology,,neuropathology,categorical,,,,0
+frontemporal,Frontemporal dementia and parkinsonism with tau-positive or argyrophilic inclusions,,neuropathology,categorical,,,,0
+ftdnotother,"FTD ""not otherwise specified"" present",,neuropathology,categorical,,,,0
+bankedfrozen,Banked frozen brain,,neuropathology,categorical,,,,0
+adinsuffcon,AD pathology present but insufficient for AD diagnosis - contributing,,neuropathology,categorical,,,,0
+ceradcri,CERAD criteria,,neuropathology,categorical,,,,0
+sinmulhemor,Single or multiple hemorrhages present,,neuropathology,categorical,,,,0
+ftldpick,FTLD-tau subtype - Pick's (PiD),,neuropathology,categorical,,,,0
+ftldpsp,FTLD-tau subtype - progressive supranuclear palsy (PSP),,neuropathology,categorical,,,,0
+atherwills,Severity of gross findings - atherosclerosis of the circle of Willis,,neuropathology,categorical,,,,0
+braakb,Braak stage for neurofibrillary degeneration (B score),,neuropathology,categorical,,,,0
+lewycontri,"Lewy body disease, with or without AD - contributing",,neuropathology,categorical,,,,0
+lararterial,Large arterial infarcts present,,neuropathology,categorical,,,,0
+ftldcbd,FTLD-tau subtype - corticobasal degeneration (CBD),,neuropathology,categorical,,,,0
+ftdnodist,FTD with no distinctive histopathology present,,neuropathology,categorical,,,,0
+lewypri,"Lewy body disease, with or without AD - primary",,neuropathology,categorical,,,,0
+formapara,Formalin- or paraformaldehyde-fixed brain,,neuropathology,categorical,,,,0
+adrdakhach,ADRDA/Khachaturian criteria,,neuropathology,categorical,,,,0
+bankcsf,Banked postmortem CSF,,neuropathology,categorical,,,,0
+iiadetot,Logical Memory IIA - Delayed - Total number of story units recalled,,nbscores,numerical,,25,,0
+totrecall,Total Number of Story Units Recalled,,nbscores,numerical,,25,,0
+digfor,Digit span forward length,,nbscores,numerical,,8,,0
+digbac,Digit span backward length,,nbscores,numerical,,8,,0
+raylimmeone,Rey Auditory Verbal Learning (Immediate) Trial 1 Total recall,,nbscores,numerical,,15,,0
+ravltotdelay,Rey Auditory Verbal Learning (Delayed)  - Total Recall,,nbscores,numerical,,15,,0
+mintsemcorcue,"Multilingual Naming Test (MINT) - 
+Semantic cues: Number correct with cue",,nbscores,numerical,,32,,0
+mintsemnum,"Multilingual Naming Test (MINT) - 
+Semantic cues: Number given",,nbscores,numerical,,32,,0
+mintphonnum,"Multilingual Naming Test (MINT) - 
+Phonemic cues: Number given",,nbscores,numerical,,32,,0
+digforcor,Digit span forward trials correct,,nbscores,numerical,,12,,0
+digbackcor,Digit span backward trials correct,,nbscores,numerical,,12,,0
+waisrdig,WAIS-R Digit Symbol,,nbscores,numerical,,93,,0
+mintphoncorcue,"Multilingual Naming Test (MINT) - 
+Phonemic cues: Number correct with cue",,nbscores,numerical,,32,,0
+tmtpatot,"Trail Making Test Part A - Total number 
+of seconds to complete",,nbscores,numerical,,150,,0
+tmtpbtot,"Trail Making Test Part B - Total 
+number of seconds to complete",,nbscores,numerical,,300,,0
+totanimal,"Animals - Total number of animals named 
+in 60 seconds",,nbscores,numerical,,77,,0
+totveget,"Vegetables - Total number of vegetables 
+named in 60 seconds",,nbscores,numerical,,77,,0
+delusionsse,Delusions severity,,npiq,categorical,,,,0
+agitaggrese,Agitation or aggression severity,,npiq,categorical,,,,0
+depdysse,Depression or dysphoria severity,,npiq,categorical,,,,0
+elateuphse,Elation or euphoria severity,,npiq,categorical,,,,0
+apatindiffese,Apathy or indifference severity,,npiq,categorical,,,,0
+irrilabise,Irritability or lability severity,,npiq,categorical,,,,0
+halluse,Hallucinations severity,,npiq,categorical,,,,0
+anxietyse,Anxiety severity,,npiq,categorical,,,,0
+disinse,Disinhibition severity,,npiq,categorical,,,,0
+appeatse,Appetite and eating severity,,npiq,categorical,,,,0
+nightbehse,Nighttime behaviors severity,,npiq,categorical,,,,0
+playgameskill,"In the past four weeks, did the subject have any difficulty or need help with: Playing a game of skill such as bridge or chess, working on a hobby",,fuctionscale,categorical,,,,0
+travelingout,"In the past four weeks, did the subject have any difficulty or need help with: Traveling out of the neighborhood, driving, or arranging to take public transportation",,fuctionscale,categorical,,,,0
+heatwater,"In the past four weeks, did the subject have any difficulty or need help with: Heating water, making a cup of coffee, turning off the stove",,fuctionscale,categorical,,,,0
+payatten,"In the past four weeks, did the subject have any difficulty or need help with: Paying attention to and understanding a TV program, book, or magazine",,fuctionscale,categorical,,,,0
+assembletax ,"In the past four weeks, did the subject have any difficulty or need help with: Assembling tax records, business affairs, or other papers",,fuctionscale,categorical,,,,0
+shopalone,"In the past four weeks, did the subject have any difficulty or need help with: Shopping alone for clothes, household necessities, or groceries",,fuctionscale,categorical,,,,0
+writecheck,"In the past four weeks, did the subject have any difficulty or need help with: Writing checks, paying bills, or balancing a checkbook",,fuctionscale,categorical,,,,0
+rememappoint,"In the past four weeks, did the subject have any difficulty or need help with: Remembering appointments, family occasions, holidays, medications",,fuctionscale,categorical,,,,0
+keeptrack,"In the past four weeks, did the subject have any difficulty or need help with: Keeping track of current events",,fuctionscale,categorical,,,,0
+prepmeal,"In the past four weeks, did the subject have any difficulty or need help with: Preparing a balanced meal",,fuctionscale,categorical,,,,0
+lcaudalant,Left caudal anterior cingulate mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rcaudalant,Right caudal anterior cingulate mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lcaudalmid,Left caudal middle frontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rcaudalmid,Right caudal middle frontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lrostralant,Left rostral anterior cingulate mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rrostralant,Right rostral anterior cingulate mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lrostralmid,Left rostral middle frontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rrostralmid,Right rostral middle frontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rmedialorbit,Right medial orbitofrontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lmedialorbit,Left medial orbitofrontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rtranstem,Right transverse temporal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+ltranstem,Left transverse temporal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rsupparietal,Right superior parietal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rpostcing,Right posterior cingulate mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rlatorbit,Right lateral orbitofrontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lsupparietal,Left superior parietal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lpostcing,Left posterior cingulate mean cortical thickness (mm),,imaging,numerical,,,mm,0
+llatorbit,Left lateral orbitofrontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rsuptem,Right superior temporal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lsuptem,Left superior temporal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rlatocci,Right lateral occipital mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rinfepar,Right inferior parietal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+llatocci,Left lateral occipital mean cortical thickness (mm),,imaging,numerical,,,mm,0
+linfepar,Left inferior parietal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rinfertem,Right inferior temporal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+linfertem,Left inferior temporal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rsupfron,Right superior frontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rmidtem,Right middle temporal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lsupfron,Left superior frontal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lmidtem,Left middle temporal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+risthcing,Right isthmus cingulate mean cortical thickness (mm),,imaging,numerical,,,mm,0
+listhcing,Left isthmus cingulate mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rparahipp,Right parahippocampal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lparahipp,Left parahippocampal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rfusi,Right fusiform mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rprecu,Right precuneus mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lfusi,Left fusiform mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lprecu,Left precuneus mean cortical thickness (mm),,imaging,numerical,,,mm,0
+Segllat,Segmented left lateral ventricle volume (cc),,imaging,numerical,,,cc,0
+Segrlat,Segmented right lateral ventricle volume (cc),,imaging,numerical,,,cc,0
+rling,Right lingual mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lling,Left lingual mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rparsope,Right pars opercularis mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lparsope,Left pars opercularis mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rinsula,Right insula mean cortical thickness (mm),,imaging,numerical,,,mm,0
+linsula,Left insula mean cortical thickness (mm),,imaging,numerical,,,mm,0
+seglhippo,Segmented left hippocampus volume (cc),,imaging,numerical,,,cc,0
+segrhippo,Segmented right hippocampus volume (cc),,imaging,numerical,,,cc,0
+rinferpargray,Right inferior parietal gray matter volume (cc),,imaging,numerical,,,cc,0
+lparstrian,Left pars triangularis mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rparstrian,Right pars triangularis mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lparsorbit,Left pars orbitalis mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rparsorbit,Right pars orbitalis mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lpostcen,Left postcentral mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lprecent,Left precentral mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lperical,Left pericalcarine mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rpostcen,Right postcentral mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rprecent,Right precentral mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lentor,Left entorhinal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lcuneus,Left cuneus mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rperical,Right pericalcarine mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lsupram,Left supramarginal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rentor,Right entorhinal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rcuneus,Right cuneus mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rsupram,Right supramarginal mean cortical thickness (mm),,imaging,numerical,,,mm,0
+lparacen,Left paracentral mean cortical thickness (mm),,imaging,numerical,,,mm,0
+rparacen,Right paracentral mean cortical thickness (mm),,imaging,numerical,,,mm,0
+segtotthirdven,Segmented total third ventricle volume (cc),,imaging,numerical,,,cc,0
+totbrainwhihyper,Total brain white matter hyperintensity volume (cc),,strokesum,numerical,,,cc,0
+amyradio,Amyloid Imaging radiotracer used,,amyloidpet,categorical,,,,0
+totintrac,Total intracranial volume (cc),,totalcranial,numerical,,,cc,0
+norcogbeh,Normal cognition and behavior,,clinicaldiagnosis,categorical,,,,0
