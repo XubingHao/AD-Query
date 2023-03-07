@@ -1,4 +1,4 @@
-# AD-Query
+# An Ontology-based Approach for Harmonization and Cross-cohort Query of Alzheimer's Disease Data Resources
 This repository contains the mapped data elements between National Alzheimer's Coordinating Center (NACC) and the Alzheimer's Disease Neuroimaging Initiative (ADNI) and the Alzheimer's Disease Data Element Ontology (ADEO).
 
 - The ADEO.owl is the source file of our Alzheimer's Disease Data Element Ontology (ADEO). 
