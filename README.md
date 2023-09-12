@@ -7,5 +7,5 @@ This repository contains the mapped and harmonized data elements between Nationa
   - The variables_concept_mapping file stores the correspondence between ADEO concepts and original variable names in NACC and ADNI.
   - The domain file contains the permissible values and corresponding value codes for categorical variables.
   - The inconsistency file contains the harmonized results of inconsistent values codes for categorical variables 
-- The ADEO.owl is the source file of the Alzheimer's Disease Data Element Ontology. 
+- The ADEO.owl is the source file of the Alzheimer's Disease Data Element Ontology. The ADEO_synonyms.owl contains the Alzheimer's Disease Data Element Ontology with synonyms added. Synonyms are added by mapping ADEO concepts to the Unified Medical Language System (UMLS).
 - The ADEO_OMOP_Mappings file contains the mappings between ADEO concepts and OMOP Standardized Vocabulary.
